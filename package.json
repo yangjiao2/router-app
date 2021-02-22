@@ -1,4 +1,5 @@
 {
+  "homepage": "yangjiao2.github.io/router-app",
   "name": "react-router-node-starter",
   "version": "1.1.0",
   "description": "an example for deploying a React Router + NodeJS app to Heroku",
@@ -11,7 +12,8 @@
     "server": "npm run build && NODE_ENV=production node server.js",
     "start": "npm run build && NODE_ENV=development node server.js",
     "test": "mocha --compilers js:babel-core/register ./test/**/*.spec.js --require ignore-styles",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
@@ -25,6 +27,7 @@
     "enzyme": "^2.9.1",
     "expect": "^1.20.2",
     "express": "^4.15.4",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.5.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
