@@ -1,5 +1,5 @@
 {
-  "homepage": "yangjiao2.github.io/router-app",
+  "homepage": "https://yangjiao2.github.io/router-app",
   "name": "react-router-node-starter",
   "version": "1.1.0",
   "description": "an example for deploying a React Router + NodeJS app to Heroku",
