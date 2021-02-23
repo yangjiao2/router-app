@@ -1,5 +1,10 @@
+
+
+
 # React Router + Node Starter
 _for [Heroku](https://www.heroku.com/) deployment_
+_for GH PAGES deployment_
+https://yangjiao2.github.io/router-app/ 
 
 ## OVERVIEW
 This is a simple starter to get you up and running for React Router projects. This is intended to provide:
